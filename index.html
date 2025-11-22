@@ -104,6 +104,7 @@
                     <a href="#" data-page="home" class="nav-link font-medium text-gray-600 hover:text-brand-accent py-2 active" onclick="showPage('home', this); return false;">Home</a>
                     <a href="#" data-page="about" class="nav-link font-medium text-gray-600 hover:text-brand-accent py-2" onclick="showPage('about', this); return false;">About Me</a>
                     <a href="#" data-page="publications" class="nav-link font-medium text-gray-600 hover:text-brand-accent py-2" onclick="showPage('publications', this); return false;">Publications</a>
+                    <a href="#" data-page="codes" class="nav-link font-medium text-gray-600 hover:text-brand-accent py-2" onclick="showPage('codes', this); return false;">Codes</a>
                     <a href="#" data-page="contact" class="nav-link font-medium text-gray-600 hover:text-brand-accent py-2" onclick="showPage('contact', this); return false;">Contact</a>
                 </nav>
                 
@@ -146,6 +147,7 @@
                 <a href="#" data-page="home" class="mobile-menu-link block text-lg font-medium text-gray-700 hover:text-brand-accent" onclick="showPage('home', this, true); return false;">Home</a>
                 <a href="#" data-page="about" class="mobile-menu-link block text-lg font-medium text-gray-700 hover:text-brand-accent" onclick="showPage('about', this, true); return false;">About Me</a>
                 <a href="#" data-page="publications" class="mobile-menu-link block text-lg font-medium text-gray-700 hover:text-brand-accent" onclick="showPage('publications', this, true); return false;">Publications</a>
+                <a href="#" data-page="codes" class="mobile-menu-link block text-lg font-medium text-gray-700 hover:text-brand-accent" onclick="showPage('codes', this, true); return false;">Codes</a>
                 <a href="#" data-page="contact" class="mobile-menu-link block text-lg font-medium text-gray-700 hover:text-brand-accent" onclick="showPage('contact', this, true); return false;">Contact</a>
                 
                 <!-- Social Icons in Mobile Menu -->
@@ -194,7 +196,12 @@
         <section id="page-publications" class="page-content" data-section="publications"></section>
 
         <!-- 
-          PAGE 4: CONTACT
+          PAGE 4: CODES
+        -->
+        <section id="page-codes" class="page-content" data-section="codes"></section>
+
+        <!-- 
+          PAGE 5: CONTACT
           - Based on your reference image `image_744a5a.png`.
         -->
         <section id="page-contact" class="page-content" data-section="contact"></section>
@@ -220,6 +227,7 @@
             home: 'sections/home.js',
             about: 'sections/about.js',
             publications: 'sections/publications.js',
+            codes: 'sections/codes.js',
             contact: 'sections/contact.js',
         };
         
